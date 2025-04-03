@@ -1,0 +1,123 @@
+.groupbuy{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #FAFAFA;
+}
+
+.homeblog{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: #FAFAFA;
+}
+
+.groupbuy-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:24px;
+}
+
+.groupbuy-item-img{
+    border-radius: 999999px;
+
+}
+
+
+.readytowear-title,.groupbuy-title, .blog-review-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.readytowear-title, .blog-review-title, .cnsp_title{
+    text-transform: uppercase;
+}
+
+.thethao-title,.readytowear-title_h2, .blog-review-title_h2, .cnsp_title{
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+    width: fit-content;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000000;
+}
+
+
+.groupbuy-list{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+
+}
+
+.readytowear-list,.blog-review-list{
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.homeblog_list{
+
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+    justify-content: center;
+    flex-wrap: nowrap
+
+}
+
+.blog-review-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.readytowear-items, .homeblog_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeblog_img{
+    width: 354px;
+    height: 354px;
+}
+.homeblog_item{
+    background-color: #fff;
+}
+.readytowear-desc {
+    width: 100%;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.btn1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 9px 20px;
+    background: #d91220;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid #d91220;
+}
+
+
+.homeblog_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-item-homelog{
+    padding: 16px 24px;
+}
